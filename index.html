@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tetris</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Tetris</h1>
+  <div id="game-container">
+    <canvas id="tetris" width="240" height="400"></canvas>
+  </div>
+  <p>Puntaje: <span id="score">0</span></p>
+  <p id="game-over" style="display: none; color: red; font-weight: bold;">¡Game Over!</p>
+  <p id="pause-message" style="display: none; color: yellow; font-weight: bold;">Pausa</p>
+  <p id="restart-message" style="display: none; color: #fff;">Presione R para reiniciar</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
