@@ -1,6 +1,6 @@
 const canvas = document.getElementById('tetris');
 const ctx = canvas.getContext('2d');
-ctx.scale(20, 20);  // Escalamos para que cada bloque sea 20x20 px
+ctx.scale(30, 30);  // Escalamos para que cada bloque sea 20x20 px
 
 const arenaWidth = 12;
 const arenaHeight = 20;
